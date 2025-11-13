@@ -33,8 +33,10 @@ public class QuizzController {
 		return quizzService.getQuizzQuestions(id);
 	}
 	
+	// results 
 	@PostMapping("/submit/{id}")
 	public ResponseEntity<Integer> submitQuizz(@PathVariable Integer id,@RequestBody List<Response> responses){
+
 		return quizzService.calcuateResult(id,responses);
 	}
 }
