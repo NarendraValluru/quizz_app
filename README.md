@@ -1,4 +1,4 @@
-# Quizz Backend Application
+# Quiz Backend Application
 A Spring Boot-based Quiz Application for creating, managing, and taking quizzes with a flexible category system. Developed with a modern MVC architecture (Controller-Service-DAO).
 
 # Features:
